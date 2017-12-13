@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:orientation="vertical" android:id="@id/root" android:clickable="true" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:foreground="?android:selectableItemBackground" app:cardCornerRadius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <org.telegram.ui.Components.BackupImageView android:id="@id/image" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/attach_audio" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/text_ly" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_toLeftOf="@id/image" android:layout_alignTop="@id/image" android:layout_alignParentLeft="true" android:layout_toStartOf="@id/image" android:layout_alignParentStart="true">
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/ly01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip">
+                <TextView android:textColor="#ff181818" android:id="@id/textView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="عنوان" />
+                <TextView android:textColor="#ff181818" android:id="@id/textView12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="نام : " />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/ly02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/ly01">
+                <TextView android:textColor="#ff181818" android:id="@id/textView13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="عنوان" />
+                <TextView android:textColor="#ff181818" android:id="@id/textView14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="بازدید : " />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/ly03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/ly01">
+                <TextView android:textColor="#ff181818" android:id="@id/textView15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="عنوان" />
+                <TextView android:textColor="#ff181818" android:id="@id/textView16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ذخیره عکس : " />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
